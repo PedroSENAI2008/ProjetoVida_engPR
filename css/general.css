@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner{
+position:sticky;
+top: 0; 
+z-index: 1000; 
+background-color:rgb(47, 47, 185);
+background-image:url('../img/Sunrise_on_the_Matterhorn.jpg');
+background-size:cover;
+background-position:center ;
+height: 190px;
+font-family: Helvetica;
+padding: 40px 40px;
+color: white;
+text-shadow: 
+-1px -1px 1px rgb(31, 41, 80),  
+1px -1px 1px rgb(31, 41, 80),  
+-1px  1px 1px rgb(31, 41, 80) ,  
+1px  1px 1px rgb(31, 41, 80);
+}
+.banner h1{
+    text-align: center;
+    font-weight: 400;
+}
+.banner h3{
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+}
+.banner ul {
+    display: flex;
+    justify-content: center;
+
+    list-style:none;
+}
+
+.banner li{
+    font-size:20px;
+    font-weight: 450;
+   
+    padding: 10px 60px;
+}
+
+
+
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    transition: transform 0.3s , color 0.3s ease-in-out;
+}
+a img{
+    max-width: 50px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(186, 215, 218);
+    transform: scale(1.3);
+}
+
+
+
+  #cafelink a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    cursor: pointer;
+  }
+
+  #cafelink a:hover{
+    text-decoration: none;
+    color: rgb(186, 215, 218);
+    transform: scale(1.3);
+}
+.body{
+    font-family:Helvetica;
+    font-size: 20px;
+    height:5000px;
+    padding: 50px 50px;
+    text-align: center;
+}
+.body h1{
+    text-align: center;
+    font-weight:900px;
+    background: url('../img/Sunrise_on_the_Matterhorn.jpg') no-repeat center;
+    background-size: cover;
+    background-position:60% 50%;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    
+    border:5px color:black;
+}
+
+.sou{
+    display:flex;
+    
+}
